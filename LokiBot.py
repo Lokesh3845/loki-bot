@@ -177,6 +177,3 @@ async def unban(ctx, *, member):
             await ctx.guild.unban(user)
             await ctx.send(f'Unbanned {user.mention}')
             return
-
-
-client.run(TOKEN)
