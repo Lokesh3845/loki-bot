@@ -1,0 +1,1 @@
+worker: python LokiBot.py
